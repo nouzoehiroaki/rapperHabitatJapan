@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.scss'
 const Header = () => {
     return (
         <header className={styles.header}>
-            <h1>Habitat of HIPHOP Artists</h1>
+            <h1>Habitat of Japanese HIPHOP Artists</h1>
         </header>
     )
 }
