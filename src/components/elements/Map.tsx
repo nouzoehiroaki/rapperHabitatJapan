@@ -13,6 +13,7 @@ export const Map: React.FC = () => {
         const fetchArtistsData = async () => {
             try {
                 let res = await getAllArtists(API_ENDPOINT);
+                console.log("getAllArtists response:", res);
                 if (res && res.results) {
                     setArtists(res.results);
                 }
@@ -23,7 +24,7 @@ export const Map: React.FC = () => {
         };
         fetchArtistsData();
     }, []);
-    const position: [number, number] = [40.688889, -73.944444];
+    const position: [number, number] = [35.8344423, 139.8983331];
     return (
         <div>
             {loading ? (
