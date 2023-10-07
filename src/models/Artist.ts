@@ -1,6 +1,6 @@
-import { ArtistTypeResponse } from "@/types/types";
+import { ApiResponse } from "@/types/types";
 
-export const getAllArtists = (bio_url: string): Promise<ArtistTypeResponse> => {
+export const getAllArtists = (bio_url: string): Promise<ApiResponse> => {
     return new Promise((resolve , reject) =>{
         fetch(bio_url)
         .then((res) => res.json())

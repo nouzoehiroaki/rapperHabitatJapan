@@ -17,10 +17,10 @@
     z-index: 2;
     background: rgb(255,255,255,.5);
   }
-    h1{
-      text-align:center;
-      margin: 0;
-    }
+  h1{
+    text-align:center;
+    margin: 0;
+  }
   .main{
     display: flex;
     justify-content: center;
@@ -30,6 +30,9 @@
     margin: auto;
     z-index: 1;
     position: relative;
+    .other_url,.bio_url{
+      display: block;
+    }
     .iframeWrapper{
       position: relative;
       padding-bottom: 56.25%;
