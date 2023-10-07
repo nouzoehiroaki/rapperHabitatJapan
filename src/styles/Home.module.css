@@ -31,6 +31,9 @@
   z-index: 1;
   position: relative;
 }
+.container .main .other_url, .container .main .bio_url {
+  display: block;
+}
 .container .main .iframeWrapper {
   position: relative;
   padding-bottom: 56.25%;

@@ -20,3 +20,9 @@ body{
   padding: 20px;
   margin: 0 !important;
 }
+.leaflet-popup-content a {
+  margin: 1.3em 0;
+}
+img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive{
+  border-radius: 100%;
+}
