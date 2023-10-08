@@ -6,7 +6,7 @@ export default function handler(
   res: NextApiResponse<ApiResponse>
 ){
   res.status(200).json({
-    total_count: 2,
+    total_count: 4,
     results: [
       {
         name: 'Club Brooklyn',
