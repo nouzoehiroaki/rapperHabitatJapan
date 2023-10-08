@@ -6,12 +6,12 @@ export default function handler(
   res: NextApiResponse<ApiResponse>
 ){
   res.status(200).json({
-    total_count: 4,
+    total_count: 5,
     results: [
       {
         name: 'Club Brooklyn',
         meta:'BIG JOE タコス',
-        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/CLUB_BKLYN.jpg?alt=media&token=f7b1fc72-31dc-441e-a39e-656c712afc53',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/brooklyn.jpg?alt=media&token=796e3714-97c7-4ac4-bdfa-7369acde7a31',
         categories: ['Food'],
         bio_url: 'https://info83959.wixsite.com/clubbrooklyn',
         other_url:'https://clubbrooklyn.thebase.in/',
@@ -27,7 +27,7 @@ export default function handler(
       {
         name: 'JUICY BURGER',
         meta:'MEGA-G BES ハンバーガー',
-        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/UHVMIOft_400x400.jpg?alt=media&token=f852b836-6db7-4aa2-9cc4-796f8fb2d9ef',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/juicy.jpg?alt=media&token=79a8b4be-9cca-438c-b928-abefcd1c3d35',
         categories: ['Food'],
         bio_url: 'https://tabelog.com/tokyo/A1315/A131504/13252680/',
         other_url:'https://juicyburger.base.shop/',
@@ -43,7 +43,7 @@ export default function handler(
       {
         name: 'NET SIDE STORE',
         meta:'RAWAXXX MAD JAG SILENT KILLA JOINT',
-        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/zG4P39v9_400x400.jpg?alt=media&token=489792c0-9d98-4bce-8f62-c07a6417e03a',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/netside.jpg?alt=media&token=b1fce036-04e9-42b6-9d5d-d3758772e28f',
         categories: ['Apparel'],
         bio_url: 'https://www.netsidestore.com/',
         other_url:'https://www.instagram.com/net_side_store/',
@@ -58,7 +58,7 @@ export default function handler(
       },{
         name: 'Proceed Music Store',
         meta:'GAGLE DJ Mu-R',
-        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/RyUbuQmB_400x400.jpg?alt=media&token=fddefff4-4373-402f-a55e-b7c4d5b8bfff',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/proseed.jpg?alt=media&token=927b6634-b01f-4513-8dd4-85347ad2edfb',
         categories: ['Record Shop'],
         bio_url: 'https://proceedmusicstore.com/',
         other_url:'https://www.instagram.com/proceed_sendai/?hl=ja',
@@ -69,6 +69,36 @@ export default function handler(
         location_coordinates: {
           lon: 140.9049252,
           lat: 38.2664271
+        }
+      },{
+        name: 'MODULE',
+        meta:'GOCCI',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/module.png?alt=media&token=15e37345-9cc9-46d4-bb35-707b4608e00d',
+        categories: ['Select Shop'],
+        bio_url: 'https://www.instagram.com/gocci_funkhawk/',
+        other_url:'https://www.instagram.com/module_mtc/',
+        other_text:'INSTAGRAM',
+        bio_summary: '水戸MODULE LUNCH TIME SPEAKSのGOCCI氏が経営される店',
+        youtube_clipexampleurl: 'https://www.youtube.com/embed/5AHLpUG4ack?si=l9Ksy8MpT494qH9q',
+        location_city: '茨城県水戸市石川１丁目４００２−３４ SIDEBMARKETmodule',
+        location_coordinates: {
+          lon: 140.4259395,
+          lat: 36.3895344
+        }
+      },{
+        name: '六喩',
+        meta:'B.D.',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/rokuyu.jpg?alt=media&token=e403141d-8216-48f8-822e-efdaa1e0f02f',
+        categories: ['Record Shop'],
+        bio_url: 'https://www.instagram.com/rokuyu20/',
+        other_url:'https://giganteworks.base.shop/',
+        other_text:'giganteworks',
+        bio_summary: 'B.D.がプロデュースするカルチャーショップ ',
+        youtube_clipexampleurl: 'https://www.youtube.com/embed/VU4ltWF4d_M?si=UYpDqHMiiJqmUwqR',
+        location_city: '栃木県那須塩原市高砂町6-7 2F',
+        location_coordinates: {
+          lon: 140.04820735,
+          lat: 36.9723211
         }
       }
     ]
