@@ -73,7 +73,7 @@ export const Map: React.FC = () => {
                                 if (artist.logo) {
                                     myIcon = new L.Icon({
                                         iconUrl: artist.logo,
-                                        iconSize: [50, 50],
+                                        iconSize: [30, 30],
                                         iconAnchor: [12, 41],
                                         popupAnchor: [0, -41]
                                     });
