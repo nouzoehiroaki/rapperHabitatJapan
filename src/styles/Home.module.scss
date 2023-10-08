@@ -49,3 +49,28 @@
     }
   }
 }
+.search{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 410;
+  .textbox{
+      border: none;
+      padding: 10px;
+      width: 300px;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  .button {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+    max-width: 33px;
+    .img{
+      width: 100%;
+    }
+  }
+}

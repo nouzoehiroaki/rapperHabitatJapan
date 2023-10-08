@@ -50,7 +50,7 @@ export const Map: React.FC = () => {
             setMapCenter([foundArtist.location_coordinates.lat, foundArtist.location_coordinates.lon]);
             setZoom(10);
         } else {
-            alert('No artist found!');
+            alert('さーセン！アーティスト名が未登録です!');
         }
     };
     return (
