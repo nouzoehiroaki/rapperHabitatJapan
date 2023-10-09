@@ -451,7 +451,7 @@ export default function handler(
         bio_url: 'https://shop.lb-2.com/',
         other_url:'https://www.instagram.com/marsmanie/',
         other_text:'INSTAGRAM',
-        bio_summary: '44BLOX MARS MANIEのお店',
+        bio_summary: '土浦の中心市街地に拠点を構える、44BLOXのラッパー MARS MANIEのお店LB',
         youtube_clipexampleurl: 'https://www.youtube.com/embed/nvte0Sy4D8k?si=c_MnkXUQsOsBytyN',
         location_city: '茨城県土浦市大手町２−５',
         location_coordinates: {
