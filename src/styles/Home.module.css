@@ -31,7 +31,7 @@
   z-index: 1;
   position: relative;
 }
-.container .main .other_url, .container .main .bio_url {
+.container .main .other_url, .container .main .bio_url, .container .main .gmap_url {
   display: block;
 }
 .container .main .iframeWrapper {
@@ -62,6 +62,12 @@
   border-radius: 5px;
   font-size: 16px;
 }
+@media (max-width: 767px) {
+  .search .textbox {
+    background: rgba(255, 255, 255, 0.7);
+    width: 260px;
+  }
+}
 .search .button {
   border: none;
   background: none;
@@ -69,9 +75,9 @@
   right: 0;
   top: 8px;
   cursor: pointer;
-  max-width: 33px;
 }
 .search .button .img {
-  width: 100%;
+  width: 23px;
+  height: 23px;
 }
 /*# sourceMappingURL=Home.module.css.map */

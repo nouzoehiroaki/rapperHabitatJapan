@@ -15,6 +15,7 @@ export type ArtistType = {
     location_city: string;
     location_coordinates: LocationCoordinates;
     logo:string;
+    gmap_url:string;
 };
   
 export type ApiResponse = {

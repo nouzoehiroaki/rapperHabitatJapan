@@ -19,7 +19,7 @@ const Search: FC<SearchProps> = ({ onSearch }) => {
                     type='text'
                     value={searchKeyword}
                     onChange={(e) => setSearchKeyword(e.target.value)}
-                    placeholder='アーティスト名で検索'
+                    placeholder='店名 アーティスト名で検索'
                 />
                 <button
                     type="submit"

@@ -48,9 +48,9 @@ export const Map: React.FC = () => {
         if (foundArtist) {
             console.log("Artist found, updating state...", foundArtist);
             setMapCenter([foundArtist.location_coordinates.lat, foundArtist.location_coordinates.lon]);
-            setZoom(10);
+            setZoom(100);
         } else {
-            alert('さーセン！アーティスト名が未登録です!');
+            alert('もうちょい具体的に！');
         }
     };
     return (
@@ -115,9 +115,15 @@ export const Map: React.FC = () => {
                                             ) : (
                                                 <p>情報なし</p>
                                             )}
-                                            <p className={styles.location_city}>
-                                                {artist.location_city}
-                                            </p>
+                                            {artist.gmap_url ? (
+                                                <Link href={artist.gmap_url} target="_blank" rel="noopener noreferrer" className={styles.gmap_url}>
+                                                    {artist.location_city}
+                                                </Link>
+                                            ) : (
+                                                <p className={styles.location_city}>
+                                                    {artist.location_city}
+                                                </p>
+                                            )}
                                             <p className={styles.bio_summary}>
                                                 {artist.bio_summary}
                                             </p>
