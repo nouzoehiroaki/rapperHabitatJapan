@@ -30,7 +30,7 @@
     margin: auto;
     z-index: 1;
     position: relative;
-    .other_url,.bio_url{
+    .other_url,.bio_url,.gmap_url{
       display: block;
     }
     .iframeWrapper{
@@ -60,6 +60,10 @@
       width: 300px;
       border-radius: 5px;
       font-size: 16px;
+      @media (max-width: 767px) {
+        background: rgb(255,255,255,.7);
+        width: 260px;
+      }
   }
   .button {
     border: none;
@@ -68,9 +72,9 @@
     right: 0;
     top: 8px;
     cursor: pointer;
-    max-width: 33px;
     .img{
-      width: 100%;
+      width: 23px;
+      height: 23px;
     }
   }
 }
