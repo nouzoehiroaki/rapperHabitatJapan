@@ -16,10 +16,37 @@
     width: 100%;
     z-index: 2;
     background: rgb(255,255,255,.5);
-  }
-  h1{
-    text-align:center;
-    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (max-width: 767px) {
+        display: block;
+    }
+    h1{
+      text-align:center;
+      margin: 0;
+      @media screen and (max-width: 767px) {
+        font-size: 1.5rem;
+      }
+    }
+    nav{
+      ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        padding: 0;
+        margin: 0;
+        @media screen and (max-width: 767px) {
+          justify-content: center;
+          margin-top: 15px;
+        }
+        li{
+          a{
+            color:#000;
+          }
+        }
+      }
+    }
   }
   .main{
     display: flex;

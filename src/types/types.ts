@@ -4,6 +4,7 @@ export type LocationCoordinates = {
 };
   
 export type ArtistType = {
+    id:number;
     name: string;
     meta:string;
     categories: string[];
@@ -16,6 +17,7 @@ export type ArtistType = {
     location_coordinates: LocationCoordinates;
     logo:string;
     gmap_url:string;
+    bg:string;
 };
   
 export type ApiResponse = {
