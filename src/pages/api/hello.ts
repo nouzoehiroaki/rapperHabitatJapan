@@ -9,6 +9,8 @@ export default function handler(
     total_count: 31,
     results: [
       {
+        id:1,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-BROOKLYN.jpg?alt=media&token=d8f4581b-dc11-4d14-b8ed-02249712ff04',
         name: 'TACOSTAND / CLUB BROOKLYN',
         gmap_url:'https://maps.app.goo.gl/2R14A5bD4yUwzRTq6',
         meta:'BIG JOE ビッグジョー CLUB BROOKLYN タコスタンド クラブブルックリン',
@@ -26,6 +28,8 @@ export default function handler(
         }
       },
       {
+        id:2,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-JUICYBURGER.jpg?alt=media&token=be6d8d55-d4ce-451a-a5cf-490f8254d5f4',
         name: 'JUICY BURGER',
         gmap_url:'https://maps.app.goo.gl/RrA6wWVf6a49qb7e7',
         meta:'MEGA-G メガジー BES ベス JUICY BURGER ジューシーバーガー',
@@ -43,6 +47,8 @@ export default function handler(
         }
       },
       {
+        id:3,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-NETSIDESTORE.jpg?alt=media&token=1839576e-df30-4a9c-bcec-f8b025ec6d61',
         name: 'NET SIDE STORE',
         gmap_url:'https://maps.app.goo.gl/bSEpiCoTyJKjG6rb7',
         meta:'RAWAXXX ロウワックス MAD JAG マッドジャグ SILENT KILLA JOINT サイレントキラジョイント NET SIDE STORE ネットサイドストア',
@@ -59,6 +65,8 @@ export default function handler(
           lat: 34.671596
         }
       },{
+        id:4,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-ProceedMusicStore.jpg?alt=media&token=9b7d8319-a1fe-4a88-bb96-acb167c4d661',
         name: 'Proceed Music Store',
         gmap_url:'https://maps.app.goo.gl/sDQf24ywuGMP24nh8',
         meta:'GAGLE ガグル DJ Mu-R ミューラー Proceed Music Store プロシードミュージックストア',
@@ -75,6 +83,8 @@ export default function handler(
           lat: 38.2664271
         }
       },{
+        id:5,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MODULE.jpg?alt=media&token=402beddf-f3a2-4432-b5ca-5610312ee69d',
         name: 'MODULE',
         gmap_url:'https://maps.app.goo.gl/d6mTVdTnjbNUryTj6',
         meta:'GOCCI ゴッチ MODULE モジュール',
@@ -91,6 +101,8 @@ export default function handler(
           lat: 36.389109
         }
       },{
+        id:6,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-ROKUYU.jpg?alt=media&token=c8b493d2-3d03-4fd1-a98d-ccecfdb395a6',
         name: '六喩',
         gmap_url:'https://maps.app.goo.gl/4d2o8Z8eJYUoL6x38',
         meta:'B.D. ビーディー 六喩 ろくゆ ロクユ',
@@ -107,6 +119,8 @@ export default function handler(
           lat: 36.9721314
         }
       },{
+        id:7,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-NISIMURA.jpg?alt=media&token=d643aaf9-813a-4cb4-8761-9473a9ad9f65',
         name: '西村整骨院',
         gmap_url:'https://maps.app.goo.gl/P3xARKcKEqfX4Vws9',
         meta:'SHOWGO ショウゴ 西村整骨院 にしむらせっこついん',
@@ -123,6 +137,8 @@ export default function handler(
           lat: 38.2754672
         }
       },{
+        id:8,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-AGIT.jpg?alt=media&token=9fe17f49-6a62-4e89-a988-bc5f069e9e2a',
         name: 'AGIT',
         gmap_url:'https://maps.app.goo.gl/sZWfDzMF743FZcMN6',
         meta:'AGIT アジト',
@@ -139,6 +155,8 @@ export default function handler(
           lat: 38.261258
         }
       },{
+        id:9,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-STILLDIGGIN.jpg?alt=media&token=b21899c4-12c4-43d6-ba53-f82fd40e230c',
         name: 'Still Diggin',
         gmap_url:'https://maps.app.goo.gl/sgHfHM56xtNJLNGC7',
         meta:'DJ VIBLAM ビブラム Still Diggin スティルディギン',
@@ -155,6 +173,8 @@ export default function handler(
           lat: 35.6690049
         }
       },{
+        id:10,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-NAMINOUE.jpg?alt=media&token=e3f2f151-b037-4242-b996-efdcbeec887f',
         name: '波の上MUSIC&BARBER',
         gmap_url:'https://maps.app.goo.gl/GKcRMtXLgsQTEjDF7',
         meta:'四号棟 波の上MUSIC&BARBER なみのうえ',
@@ -163,7 +183,7 @@ export default function handler(
         bio_url: 'https://naminouemsc.thebase.in/',
         other_url:'https://www.instagram.com/naminouemusic/',
         other_text:'INSTAGRAM',
-        bio_summary: '2015年6月、那覇市辻にOPENしたCD&レコードを中心にセレクト＆取り扱いMUSIC SHOP ヒップホップ＆ダンスミュージックを中心に、大手CDショップにはない非流通作品、MIXCD、特典付きCD等有。 音好きの方、更に音楽を楽しみたい方遊びにいらしてください',
+        bio_summary: '2015年6月、那覇市辻にOPENしたCD&レコードを中心にセレクト&取り扱いMUSIC SHOP ヒップホップ&ダンスミュージックを中心に、大手CDショップにはない非流通作品、MIXCD、特典付きCD等有。 音好きの方、更に音楽を楽しみたい方遊びにいらしてください',
         youtube_clipexampleurl: 'https://www.youtube.com/embed/bdqj7oqX77o?si=qP5tuTuM705biwB2',
         location_city: '沖縄県那覇市辻1-2-14 1F',
         location_coordinates: {
@@ -171,6 +191,8 @@ export default function handler(
           lat: 26.2164951
         }
       },{
+        id:11,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-JAMES.jpg?alt=media&token=cfdfb10d-8d94-47af-a7c7-a22543b9022e',
         name: 'JAMES american food',
         gmap_url:'https://maps.app.goo.gl/KUr7K8ihBJwqZ9EB6',
         meta:'IMUHA BLACK DON QUICK イムハブラック JAMES american food ジェームス',
@@ -187,6 +209,8 @@ export default function handler(
           lat: 35.8147977
         }
       },{
+        id:12,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-HYOUTAN.jpg?alt=media&token=0ef9c13c-5bca-4a7c-8baa-639671183f3e',
         name: '味処ひょうたん',
         gmap_url:'https://maps.app.goo.gl/QZdYfiKLZh8KoC858',
         meta:'6th Generation 味処ひょうたん',
@@ -203,6 +227,8 @@ export default function handler(
           lat: 38.1753399
         }
       },{
+        id:13,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-TORIITEI.jpg?alt=media&token=a1993827-c89f-4e1b-8338-fa54556a977e',
         name: '鳥居亭',
         gmap_url:'https://maps.app.goo.gl/dQygBTV9UaAyYxHAA',
         meta:'RINO LATINA II リノラティーナ 鳥居亭 とりいてい',
@@ -219,6 +245,8 @@ export default function handler(
           lat: 35.6439008
         }
       },{
+        id:14,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore.TOKABANANA.jpg?alt=media&token=35772ab3-058c-4210-ae07-2111ff768cb9',
         name: 'トカバナナ',
         gmap_url:'https://maps.app.goo.gl/6a59mP7ug3VQu8ce8',
         meta:'十影 トカゲ トカバナナ',
@@ -235,6 +263,8 @@ export default function handler(
           lat: 35.6694534
         }
       },{
+        id:15,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-SOULFACTORY.jpg?alt=media&token=accf17be-4941-4085-90d7-5a43aa528895',
         name: 'SOUL FACTORY',
         gmap_url:'https://maps.app.goo.gl/6A7r6dre2Hpq9NZKA',
         meta:'GORIKI ゴーリキ SOUL FACTORY ソウルファクトリー',
@@ -251,6 +281,8 @@ export default function handler(
           lat: 24.3452495
         }
       },{
+        id:16,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-THEKILLERKAN.jpg?alt=media&token=be522521-d5d0-4cba-8594-2b684d5cd0e6',
         name: 'THE KILLER KAN',
         gmap_url:'https://maps.app.goo.gl/2yj51rdbAG7EDdjS6',
         meta:'JOE-CHO ジョウチョウ THE KILLER KAN ザキラーカン',
@@ -267,6 +299,8 @@ export default function handler(
           lat: 35.859387
         }
       },{
+        id:17,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-9sariCafe%26Bar.jpg?alt=media&token=a1e2d287-935e-4a5c-b4af-64db75fb1152',
         name: '9sari Cafe&Bar',
         gmap_url:'https://maps.app.goo.gl/5MLvu3SDfV8Rb5sY6',
         meta:'漢 GAMI D.O 9sari Cafe&Bar くさりカフェ',
@@ -283,6 +317,8 @@ export default function handler(
           lat: 35.7083515
         }
       },{
+        id:18,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-PHARCYDE.jpg?alt=media&token=db5f0d27-4abf-4e92-8c44-b0c7cd1f2407',
         name: 'PHARCYDE',
         gmap_url:'https://maps.app.goo.gl/2o8N8UhxyMXYFrTw7',
         meta:'WATUKEY TOSHI ON THE BEATS PHARCYDE ファーサイド ワツキー',
@@ -299,6 +335,8 @@ export default function handler(
           lat: 34.931141
         }
       },{
+        id:19,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-JUICEBARROCKET.jpg?alt=media&token=3520462b-6413-43c7-bef9-45faeb5113ee',
         name: 'JUICE BAR ROCKET',
         gmap_url:'https://maps.app.goo.gl/iKJt6zzUzcHEd6pF8',
         meta:'VIKN バイケン JUICE BAR ROCKET ジュースバーロケット',
@@ -315,6 +353,8 @@ export default function handler(
           lat: 35.7475739
         }
       },{
+        id:20,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-HIHUMIYA.jpg?alt=media&token=dac2b0f7-0685-4eba-8619-8fbf8ce2ba4d',
         name: '一二三屋',
         gmap_url:'https://maps.app.goo.gl/bo5hrAmQAU8DnWEm7',
         meta:'韻踏合組合 HIDADDY CIMA ひふみや 一二三屋 ヒダディー',
@@ -331,6 +371,8 @@ export default function handler(
           lat: 34.673087
         }
       },{
+        id:21,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-DontFind.jpg?alt=media&token=3c91ee57-a56a-4eba-9f65-774d61ee4a09',
         name: 'Dont Find',
         gmap_url:'https://maps.app.goo.gl/5sd18pinJT1QH1N18',
         meta:'Dont Find OLIVEOIL OILWORKS Popy Oil オリーブオイル オイルワークス ポピーオイル',
@@ -347,6 +389,8 @@ export default function handler(
           lat: 33.5866883
         }
       },{
+        id:22,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-CASTLE-RECORDS.jpg?alt=media&token=1cd28c09-819a-499a-8657-7a0cd20228ad',
         name: 'CASTLE-RECORDS',
         gmap_url:'https://maps.app.goo.gl/RWKMHcUfrx33dQeUA',
         meta:'CASTLE-RECORDS キャッスルレコーズ G.O 椿',
@@ -363,6 +407,8 @@ export default function handler(
           lat: 35.7080321
         }
       },{
+        id:23,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MIYARA.jpg?alt=media&token=8b46d0a2-b4a7-47fb-8679-9a2ceaaa1b58',
         name: 'てんぷら みやら',
         gmap_url:'https://maps.app.goo.gl/xaXEXsFUE9V1DLQf9',
         meta:'てんぷら みやら CHOUJI チョウジ',
@@ -379,6 +425,8 @@ export default function handler(
           lat: 26.2215394
         }
       },{
+        id:24,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-THEATER1.jpeg?alt=media&token=6632e939-1ef2-41ba-8b96-fe68b427d9fd',
         name: 'THEATER 1',
         gmap_url:'https://maps.app.goo.gl/hv1KrYdLnM5muWso7',
         meta:'THEATER 1 シアターワン 318',
@@ -395,6 +443,8 @@ export default function handler(
           lat: 35.7392447
         }
       },{
+        id:25,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-Highflyer.jpg?alt=media&token=fdcdbfe9-b13c-4b43-96ba-a90c4df45514',
         name: 'Highflyer',
         gmap_url:'https://maps.app.goo.gl/TNrntFnsZLKM24ig6',
         meta:'Highflyer ハイフライヤー AKITO',
@@ -411,6 +461,8 @@ export default function handler(
           lat: 35.8597198
         }
       },{
+        id:26,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-SARASA.jpg?alt=media&token=ba8476c0-39e5-4615-980f-2b264034391c',
         name: '渋谷メキシカン カサデサラサ',
         gmap_url:'https://maps.app.goo.gl/3jYxFKKM3JzXPYWV6',
         meta:'カサデサラサ SARASA',
@@ -427,6 +479,8 @@ export default function handler(
           lat: 35.660224
         }
       },{
+        id:27,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MENYAKUZU.jpg?alt=media&token=a22c79fb-a774-4878-bbb4-dd3990127be1',
         name: '麺屋クズ 荻窪本店',
         gmap_url:'https://maps.app.goo.gl/C48dJtdsEy9Y3o8n6',
         meta:'麺屋クズ t-Ace ティーエース',
@@ -443,6 +497,8 @@ export default function handler(
           lat: 35.7032506
         }
       },{
+        id:28,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-LB.jpg?alt=media&token=7bd9678e-36b8-4a47-84bc-39e173e18c0c',
         name: 'LB',
         gmap_url:'https://maps.app.goo.gl/79yJ3XbsjjYTg9XbA',
         meta:'LB MARS MANIE マーズマニー',
@@ -459,6 +515,8 @@ export default function handler(
           lat: 36.0803291
         }
       },{
+        id:29,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MONICHIKIHOUSE.jpg?alt=media&token=8ef0f090-c424-4c7b-9ba6-cd933a7d8957',
         name: 'MONICHIKI HOUSE',
         gmap_url:'https://maps.app.goo.gl/SDq3DGnuakaGSokCA',
         meta:'MonyHorse モニーホース MONICHIKI HOUSE モニチキハウス',
@@ -475,6 +533,8 @@ export default function handler(
           lat: 35.6467062
         }
       },{
+        id:30,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-CLUBOCTBASS.jpg?alt=media&token=692477af-3cec-482e-b54f-71b84a68bed8',
         name: 'CLUB OCTBASS',
         gmap_url:'https://maps.app.goo.gl/ifKna2JbpGqmxj92A',
         meta:'CLUB OCTBASS オクトベース SPRA エスプラ',
@@ -491,6 +551,8 @@ export default function handler(
           lat: 36.0908406
         }
       },{
+        id:31,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-TAIHEI.jpg?alt=media&token=34d52cf7-0c2b-4353-8018-74116dbbafd6',
         name: '大平 BIGFLAT',
         gmap_url:'https://maps.app.goo.gl/Paf8AT5mHoKBZ3BS9',
         meta:'大平 BIGFLAT Big Ben ビッグベン stillichimiya スティルイチミヤ',
