@@ -4,6 +4,12 @@ import { getAllArtists } from '@/models/Artist'
 import { ArtistType } from '@/types/types'
 import styles from '@/styles/List.module.scss'
 import Link from 'next/link'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Scrollbar, FreeMode } from 'swiper/modules';
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'swiper/css/scrollbar'
+import 'swiper/css/navigation'
 
 type ListProps = {
     initialArtists: ArtistType[];
@@ -34,11 +40,26 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
         <div className={styles.main}>
             {loading ? (
                 <p className={styles.loading}>Loading...</p>
-            ) :
-                <>
-                    {
-                        artists.map((artist) => (
-                            <div className={styles.card} key={artist.id}>
+            ) : (
+                <Swiper
+                    modules={[Navigation, Scrollbar, FreeMode]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    navigation
+                    freeMode={true}
+                    scrollbar={{ draggable: true }}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        1199: {
+                            slidesPerView: 3,
+                        },
+                    }}
+                >
+                    {artists.map((artist) => (
+                        <SwiperSlide key={artist.id}>
+                            <div className={styles.card} >
                                 <div className={styles.card__content}>
                                     <div
                                         className={styles.card__front}
@@ -59,10 +80,10 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
                                     </div>
                                 </div>
                             </div>
-                        ))
-                    }
-                </>
-            }
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            )}
         </div>
     )
 }

@@ -14,7 +14,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-leaflet": "^4.2.1",
-    "sass": "^1.68.0"
+    "sass": "^1.68.0",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.6",

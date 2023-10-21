@@ -11,7 +11,7 @@ const Nav = () => {
                 </li>
                 <li>
                     <Link href='/list'>
-                        Artists List
+                        Shop List
                     </Link>
                 </li>
                 <li>

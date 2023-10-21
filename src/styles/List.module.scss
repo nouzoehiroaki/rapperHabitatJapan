@@ -6,22 +6,13 @@
     --fw-normal: 400;
     --fw-bold: 700;
     --clr: #b7c9e5;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 20px;
-    @media (max-width: 767px) {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media (max-width: 585px) {
-        grid-template-columns: 1fr;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
     .card {
-        width: 400px;
-        @media (max-width: 585px) {
-            width:100%;
-        }
+       cursor: grab;
         .card__content {
             text-align: center;
             position: relative;
