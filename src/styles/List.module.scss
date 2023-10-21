@@ -6,13 +6,18 @@
     --fw-normal: 400;
     --fw-bold: 700;
     --clr: #b7c9e5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     width: 100%;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    @media screen and (max-width: 767px) {
+        margin-top: 30px;
+    }
     .card {
-       cursor: grab;
+        cursor: grab;
         .card__content {
             text-align: center;
             position: relative;
@@ -31,13 +36,17 @@
                 transform-style: preserve-3d;
                 display: grid;
                 align-content: center;
+                @media screen and (max-width: 585px) {
+                    padding: 1em;
+                }
             }
             .card__front {
                 background-color: var(--clr);
-                background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);
                 background-size: cover;
+                background-position: center;
                 background-blend-mode: overlay;
                 color: #333;
+                transition: all .5s;
                 &::before {
                     content: '';
                     position: absolute;
@@ -54,6 +63,9 @@
                     transform: var(--level-three);
                     order: 2;
                     text-transform: uppercase;
+                    @media screen and (max-width: 585px) {
+                        font-size: 1.2rem;
+                    }
                 }
                 .card__subtitle {
                     transform: var(--level-two);
@@ -79,14 +91,28 @@
                         border: 1px solid var(--clr);
                         padding: 10px 0;
                         text-decoration: none;
-                        margin-top: 15px;
+                        transition:all .5s ease;
+                        max-width: 240px;
+                        margin: 30px auto 0;
+                        &:hover {
+                            background-color: var(--clr);
+                            color:#fff;
+                        }
                     }
                 }
             }
               
         }
-        &:hover .card__content {
+        &.flipped .card__content {
             transform: rotateY(.5turn);
+        }
+        &:hover .card__front {
+            background-color: transparent;
+            color: #fff;
+            text-shadow: 1px 1px 1px #333;
+            .card__subtitle{
+                opacity: 1;
+            }
         }
     }
 }
