@@ -6,7 +6,7 @@ export default function handler(
   res: NextApiResponse<ApiResponse>
 ){
   res.status(200).json({
-    total_count: 31,
+    total_count: 33,
     results: [
       {
         id:1,
@@ -84,7 +84,7 @@ export default function handler(
         }
       },{
         id:5,
-        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MODULE.jpg?alt=media&token=402beddf-f3a2-4432-b5ca-5610312ee69d',
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-MODULE.png?alt=media&token=461da234-64e2-448b-bc42-d4a162ba1ef6',
         name: 'MODULE',
         gmap_url:'https://maps.app.goo.gl/d6mTVdTnjbNUryTj6',
         meta:'GOCCI ゴッチ MODULE モジュール',
@@ -93,12 +93,12 @@ export default function handler(
         bio_url: 'https://www.instagram.com/gocci_funkhawk/',
         other_url:'https://www.instagram.com/module_mtc/',
         other_text:'INSTAGRAM',
-        bio_summary: '水戸MODULE LUNCH TIME SPEAKSのGOCCI氏が経営される店',
+        bio_summary: '水戸MODULE LUNCH TIME SPEAKSのGOCCI氏が経営するセレクトショップ',
         youtube_clipexampleurl: 'https://www.youtube.com/embed/5AHLpUG4ack?si=l9Ksy8MpT494qH9q',
-        location_city: '茨城県水戸市石川１丁目４００２−２ SIDE B MARKET',
+        location_city: '茨城県水戸市南町1丁目2-32 M WORK bldg 3F',
         location_coordinates: {
-          lon: 140.4269601,
-          lat: 36.389109
+          lon: 140.4637539,
+          lat: 36.3734035
         }
       },{
         id:6,
@@ -567,6 +567,42 @@ export default function handler(
         location_coordinates: {
           lon: 138.6837713,
           lat: 35.686792
+        }
+      },{
+        id:32,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2F%20store-BLOODYANGLE.jpeg?alt=media&token=ad72d6be-a7ae-4ace-8e75-1ab7029479c5',
+        name: 'BLOODY ANGLE DOUGEN TONG',
+        gmap_url:'https://maps.app.goo.gl/bs5soFXPDBSkiFwG7',
+        meta:'RYUZO R-RATED リュウゾウ BLOODY ANGLE DOUGEN TONG ブラッディ アングル',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/logo-BLOODYANGLE.jpeg?alt=media&token=b77bfd27-dd11-462e-9afd-e49f29b5e17f',
+        categories: ['ネオ喫茶 レコード・バー'],
+        bio_url: 'https://bloodyangle.tokyo/',
+        other_url:'https://www.instagram.com/bloodyangledougentong/',
+        other_text:'INSTAGRAM',
+        bio_summary: 'R-ratedの創設者であるラッパーのRYUZOが手掛けるレコード・バー「BLOODY ANGLE」の2号店。昼は喫茶店、夜はレコード・バーの2部構成となっている。店では、専門のバイヤーが選ぶレコードが購入できる。',
+        youtube_clipexampleurl: 'https://www.youtube.com/embed/Q6NLFkGdIww?si=9JUCr3n7cd9G4PmP',
+        location_city: '東京都渋谷区道玄坂２丁目１５−１ ビル 地下1階 ノア道玄坂',
+        location_coordinates: {
+          lon: 139.6961946,
+          lat: 35.6582188
+        }
+      },{
+        id:33,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-TACOSBARADO.jpg?alt=media&token=27bc9413-493a-47d5-b08a-6761baf32dbc',
+        name: 'TACOS BAR ADO',
+        gmap_url:'https://maps.app.goo.gl/zrNCwoJDbFERXfWTA',
+        meta:'TACOS BAR ADO MC GEBO タコスバーアド',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/logo-TACOSBARADO.jpg?alt=media&token=aaac903b-5d01-4e34-a7a8-32575e8add7f',
+        categories: ['タコス バー'],
+        bio_url: 'https://adorecords.com/bar-ado',
+        other_url:'https://www.instagram.com/adochan1016/',
+        other_text:'INSTAGRAM',
+        bio_summary: '日々、猫と酒と笑いとGOOD MUSICの癒しの空間 BAR｢ADO｣。',
+        youtube_clipexampleurl: 'https://www.youtube.com/embed/HAiogY0jlNU?si=lR9m9eTjQliJlBt-',
+        location_city: '大阪府寝屋川市錦町１８−１６',
+        location_coordinates: {
+          lon: 135.6159455,
+          lat: 34.7619099
         }
       }
     ]

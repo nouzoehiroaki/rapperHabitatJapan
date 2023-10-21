@@ -29,6 +29,11 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive{
   -webkit-animation: currentBright 1.2s linear infinite;
   animation: currentBright 1.2s linear infinite
 }
+@media screen and (max-width: 585px) {
+  .swiper-button-prev, .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 70%) !important;
+  }
+}
 
 @-webkit-keyframes currentBright {
   50% {

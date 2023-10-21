@@ -5,9 +5,8 @@ import { ArtistType } from '@/types/types'
 import styles from '@/styles/List.module.scss'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Scrollbar, FreeMode } from 'swiper/modules';
+import { Navigation, Scrollbar } from 'swiper/modules';
 import 'swiper/css'
-import 'swiper/css/free-mode'
 import 'swiper/css/scrollbar'
 import 'swiper/css/navigation'
 
@@ -36,18 +35,27 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
             fetchArtistsData();
         }
     }, []);
+
+    const [isFlipped, setIsFlipped] = useState<Record<string | number, boolean>>({});
+    const handleCardClick = (id: string | number) => {
+        setIsFlipped(prevState => ({
+            ...prevState,
+            [id]: !prevState[id]
+        }));
+    }
     return (
         <div className={styles.main}>
             {loading ? (
                 <p className={styles.loading}>Loading...</p>
             ) : (
                 <Swiper
-                    modules={[Navigation, Scrollbar, FreeMode]}
+                    modules={[Navigation, Scrollbar]}
                     spaceBetween={50}
                     slidesPerView={1}
                     navigation
-                    freeMode={true}
-                    scrollbar={{ draggable: true }}
+                    scrollbar={{
+                        draggable: true
+                    }}
                     breakpoints={{
                         768: {
                             slidesPerView: 2,
@@ -59,7 +67,10 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
                 >
                     {artists.map((artist) => (
                         <SwiperSlide key={artist.id}>
-                            <div className={styles.card} >
+                            <div
+                                className={`${styles.card} ${isFlipped[artist.id] ? styles.flipped : ''}`}
+                                onClick={() => handleCardClick(artist.id)}
+                            >
                                 <div className={styles.card__content}>
                                     <div
                                         className={styles.card__front}
