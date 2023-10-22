@@ -15,7 +15,7 @@ const Nav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href='/'>
+                    <Link href='/creator'>
                         Creator
                     </Link>
                 </li>

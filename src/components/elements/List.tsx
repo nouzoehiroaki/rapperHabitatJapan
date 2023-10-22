@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Scrollbar } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
+//import 'swiper/css/navigation'
 
 type ListProps = {
     initialArtists: ArtistType[];
@@ -52,6 +52,7 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
                     modules={[Navigation, Scrollbar]}
                     spaceBetween={50}
                     slidesPerView={1}
+                    allowTouchMove={false}
                     navigation
                     scrollbar={{
                         draggable: true
