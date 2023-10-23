@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Scrollbar } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/scrollbar'
-//import 'swiper/css/navigation'
 
 type ListProps = {
     initialArtists: ArtistType[];

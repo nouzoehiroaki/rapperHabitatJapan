@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '@/styles/Home.module.scss'
 import Header from '@/components/layouts/Header/Header'
+import Creator from '@/components/elements/Creator'
 import Head from 'next/head'
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
             <Header />
             <main className={styles.main}>
                 <div>
-                    creator
+                    <Creator />
                 </div>
             </main>
         </div>
