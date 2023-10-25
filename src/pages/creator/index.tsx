@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Japanese HIPHOP Artists Map</title>
+                <title>Creator | Japanese HIPHOP Artists Map</title>
                 <meta name="viewport" content="width=device-width,  maximum-scale=1.0"></meta>
             </Head>
             <Header />
