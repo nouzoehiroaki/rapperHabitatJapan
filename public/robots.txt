@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://artist-map.kgetheshadowmen.com/
+
+# Sitemaps
+Sitemap: https://artist-map.kgetheshadowmen.com/sitemap.xml

@@ -11,7 +11,7 @@ const Search: FC<SearchProps> = ({ onSearch }) => {
         onSearch(searchKeyword);
     };
     return (
-        <form className={styles.search} onSubmit={handleFormSubmit}>
+        <form id='search' className={styles.search} onSubmit={handleFormSubmit}>
             <label htmlFor='name'>
                 <input
                     id='name'
