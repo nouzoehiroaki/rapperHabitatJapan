@@ -604,6 +604,24 @@ export default function handler(
           lon: 135.6159455,
           lat: 34.7619099
         }
+      },{
+        id:34,
+        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-GAMICURRY.jpg?alt=media&token=960f3812-4c1b-4e05-919a-f23b5e28017e',
+        name: '三軒茶屋カレー ガミカリー',
+        gmap_url:'https://maps.app.goo.gl/SNe5wTh7yYCGCCcJ9',
+        meta:'三軒茶屋カレー ガミカリー 神 妄走族 モウソウゾク',
+        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/GAMICURRY-LOGO.jpg?alt=media&token=3f700217-7e57-4b59-8f85-fe147f899913',
+        categories: ['カレー店'],
+        bio_url: 'https://gami-curry.stores.jp/',
+        other_url:'https://www.instagram.com/gami_curry/',
+        other_text:'INSTAGRAM',
+        bio_summary: 'グルテンフリー、化学調味料不使用の身体にやさしいカリーをご提供しております！',
+        youtube_clipexampleurl: 'https://www.youtube.com/embed/OMQZTpfEYXM?si=g4OCLuGFvFBMCRPr',
+        location_city: '東京都世田谷区太子堂２丁目６−３ F-FLAT三軒茶屋 1階',
+        location_coordinates: {
+          lon: 139.6742795,
+          lat: 35.6446469
+        }
       }
     ]
   })
