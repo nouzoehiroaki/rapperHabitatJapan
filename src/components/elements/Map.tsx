@@ -60,7 +60,7 @@ export const Map: React.FC = () => {
             ) :
                 <>
                     <Search onSearch={handleSearch} />
-                    <MapContainer center={mapCenter} zoom={zoom} scrollWheelZoom={false} key={`${mapCenter[0]},${mapCenter[1]},${zoom}`}>
+                    <MapContainer center={mapCenter} zoom={zoom} scrollWheelZoom={true} key={`${mapCenter[0]},${mapCenter[1]},${zoom}`}>
                         <MapUpdater center={mapCenter} zoom={zoom} />
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
