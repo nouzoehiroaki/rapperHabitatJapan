@@ -26,42 +26,6 @@ const Creator = () => {
                         <Link href={mailtoLink} className={styles.mailtoLink}>
                             info@kgetheshadowmen.com
                         </Link>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <th>
-                                        個人の方
-                                    </th>
-                                    <td>
-                                        ¥50,000〜
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        個人事業主の方
-                                    </th>
-                                    <td>
-                                        ¥120,000〜
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        法人(社員数5人以下)
-                                    </th>
-                                    <td>
-                                        ¥200,000〜
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        法人(社員数5人以上)
-                                    </th>
-                                    <td>
-                                        ¥300,000〜
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                     <div className={styles.works}>
                         <h4>制作事例</h4>
@@ -72,18 +36,8 @@ const Creator = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href='https://ikeuchiproducts.com/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
-                                    IKEUCHI PRODUCT
-                                </Link>
-                            </li>
-                            <li>
                                 <Link href='https://theater1.tokyo/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
                                     シアターワン
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href='https://woodlandbothy.jp/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
-                                    WOODLANDBOTHY
                                 </Link>
                             </li>
                             <li>
