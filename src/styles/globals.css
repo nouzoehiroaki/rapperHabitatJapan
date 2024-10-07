@@ -29,6 +29,9 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive{
   -webkit-animation: currentBright 1.2s linear infinite;
   animation: currentBright 1.2s linear infinite
 }
+.swiper {
+  overflow: hidden !important;
+}
 .swiper-button-prev, 
 .swiper-button-next {
   position: absolute;
