@@ -32,18 +32,18 @@ export default function handler(
         bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-NETSIDESTORE.jpg?alt=media&token=1839576e-df30-4a9c-bcec-f8b025ec6d61',
         name: 'NET SIDE STORE',
         gmap_url:'https://maps.app.goo.gl/bSEpiCoTyJKjG6rb7',
-        meta:'RAWAXXX ロウワックス MAD JAG マッドジャグ SILENT KILLA JOINT サイレントキラジョイント NET SIDE STORE ネットサイドストア',
+        meta:'RAWAXXX ロウワックス MADJAG マッドジャグ SILENT KILLA JOINT サイレントキラジョイント NET SIDE STORE ネットサイドストア',
         logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/netside.jpg?alt=media&token=b1fce036-04e9-42b6-9d5d-d3758772e28f',
         categories: ['Apparel'],
         bio_url: 'https://www.netsidestore.com/',
         other_url:'https://www.instagram.com/net_side_store/',
         other_text:'INSTAGRAM',
-        bio_summary: '大阪アメ村ド真ん中に構えるHIPHOP電波塔Planet Radio /Original Goods / Street Wear / Vinyl&CD / Recording Studio.',
+        bio_summary: 'HIPHOP電波塔Planet Radio /Original Goods / Street Wear / Vinyl&CD / Recording Studio.',
         youtube_clipexampleurl: 'https://www.youtube.com/embed/m9pnsOdFBFk?si=u-OYE8Q9DAUGneah',
-        location_city: '大阪府大阪市中央区西心斎橋２丁目１０−２９ アメリカ村センタービル 5F',
+        location_city: '大阪府大阪市生野区中川西２丁目４−６',
         location_coordinates: {
-          lon: 135.4985643,
-          lat: 34.671596
+          lon: 135.5408001,
+          lat: 34.6618114
         }
       },{
         id:4,
