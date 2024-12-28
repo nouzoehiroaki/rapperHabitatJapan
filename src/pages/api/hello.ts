@@ -28,25 +28,6 @@ export default function handler(
         }
       },
       {
-        id:2,
-        bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-JUICYBURGER.jpg?alt=media&token=be6d8d55-d4ce-451a-a5cf-490f8254d5f4',
-        name: 'JUICY BURGER',
-        gmap_url:'https://maps.app.goo.gl/RrA6wWVf6a49qb7e7',
-        meta:'MEGA-G メガジー BES ベス JUICY BURGER ジューシーバーガー',
-        logo:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/juicy.jpg?alt=media&token=79a8b4be-9cca-438c-b928-abefcd1c3d35',
-        categories: ['ハンバーガー店'],
-        bio_url: 'https://tabelog.com/tokyo/A1315/A131504/13252680/',
-        other_url:'https://juicyburger.base.shop/',
-        other_text:'Goods',
-        bio_summary: '11:00-15:00 17:00-21:00 土日祝も休憩あり☀️テイクアウト&デリバリー 大田区羽田1-4-5 03-5735-4655 京急空港線大鳥居駅から徒歩5分 ケータリングのご注文はメールにてお願いします2020haneda@gmail.com',
-        youtube_clipexampleurl: 'https://www.youtube.com/embed/HTJoeTZxCoo?si=QoWrWvbvJIgsYeas',
-        location_city: '東京都大田区羽田1-4-5',
-        location_coordinates: {
-          lon: 139.7452628,
-          lat: 35.55167
-        }
-      },
-      {
         id:3,
         bg:'https://firebasestorage.googleapis.com/v0/b/rapperhabitatjapan.appspot.com/o/store%2Fstore-NETSIDESTORE.jpg?alt=media&token=1839576e-df30-4a9c-bcec-f8b025ec6d61',
         name: 'NET SIDE STORE',
