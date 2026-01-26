@@ -15,8 +15,8 @@ const Creator = () => {
             <div className={styles.__creator}>
                 <div className={styles.__text}>
                     <div className={styles.__prof}>
-                        <h2>作成者<br />KGE THE SHADOWMEN</h2>
-                        <p>HIPHOPとTypeScriptを愛するラッパー。</p>
+                        <h2>作成者<br />PYLORHYTHM</h2>
+                        <p>2019年創業。WEB制作会社。</p>
                     </div>
                     <div className={styles.__appeal}>
                         <h3>Home Pageお作りします。</h3>
@@ -24,7 +24,7 @@ const Creator = () => {
                             個人から法人までお手軽なお値段での提供が可能です。
                         </p>
                         <Link href={mailtoLink} className={styles.mailtoLink}>
-                            info@kgetheshadowmen.com
+                            pylorhythm@gmail.com
                         </Link>
                     </div>
                     <div className={styles.works}>
@@ -41,6 +41,11 @@ const Creator = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link href='https://team44blox.com/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
+                                    TEAM44BLOX
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href='https://roshichi.com/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
                                     ろ七タオル
                                 </Link>
@@ -48,6 +53,11 @@ const Creator = () => {
                             <li>
                                 <Link href='https://lp.l-funs.com/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
                                     LFUNS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='https://metabatch.ninjametavelive.com/' target="_blank" rel="noopener noreferrer" className={styles.bio_url}>
+                                    NINJA METAVERSE LIVE
                                 </Link>
                             </li>
                         </ul>
