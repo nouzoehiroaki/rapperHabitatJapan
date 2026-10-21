@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 5
+    # メジャー更新（Next 16 / React 19 など）は手動で計画的に行うので除外
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    # マイナー・パッチ更新は1つのPRにまとめる
+    groups:
+      minor-and-patch:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
+    commit-message:
+      prefix: "deps"
