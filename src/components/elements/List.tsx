@@ -52,7 +52,7 @@ export const List: React.FC<ListProps> = ({ initialArtists }) => {
                     spaceBetween={50}
                     slidesPerView={1}
                     allowTouchMove={false}
-                    navigation
+                    navigation={{ addIcons: false }}
                     scrollbar={{
                         draggable: true
                     }}
